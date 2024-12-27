@@ -8,7 +8,7 @@ There is also an accompanying png and pdf version
 https://github.com/daniellewisDL/streamlit-cheat-sheet
 
 v1.25.0
-20 August 2023
+20 December 2024
 
 Author:
     @daniellewisDL : https://github.com/daniellewisDL
@@ -191,7 +191,7 @@ col1, col2, col3 = st.columns([3,1,1])
 # Stop execution immediately:
 st.stop()
 # Rerun script immediately:
-st.experimental_rerun()
+st.rerun()   # new version
 
 # Group multiple widgets:
 >>> with st.form(key='my_form'):
